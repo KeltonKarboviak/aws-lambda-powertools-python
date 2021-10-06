@@ -11,6 +11,7 @@ from .connect_contact_flow_event import ConnectContactFlowEvent
 from .dynamo_db_stream_event import DynamoDBStreamEvent
 from .event_bridge_event import EventBridgeEvent
 from .event_source import event_source
+from .kinesis_firehose_event import KinesisFirehoseEvent
 from .kinesis_stream_event import KinesisStreamEvent
 from .s3_event import S3Event
 from .ses_event import SESEvent
@@ -27,6 +28,7 @@ __all__ = [
     "ConnectContactFlowEvent",
     "DynamoDBStreamEvent",
     "EventBridgeEvent",
+    "KinesisFirehoseEvent",
     "KinesisStreamEvent",
     "S3Event",
     "SESEvent",
